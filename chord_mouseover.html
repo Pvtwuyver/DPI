@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+
+<meta charset="utf-8">
+<title>Chorddiagram voor heropname per afdeling</title>
+<style>
+    #circle circle {
+        fill: none;
+        pointer-events: all;
+    }
+    
+    .group path {
+        fill-opacity: .5;
+    }
+    
+    path.chord {
+        stroke: #000;
+        stroke-width: .25px;
+    }
+    
+    #circle:hover path.fade {
+        display: none;
+    }
+
+</style>
+
+<header>
+    <aside>January, 2017</aside>
+    <a href="www.depraktijkindex.nl/" rel="author">De Praktijk Index</a>
+</header>
+<body>
+
+
+
+<h1>Chorddiagram voor heropname per afdeling</h1>
+
+<p>Mouseover voor focus op specifieke heropnames per afdeling.
+De dikte van de link geeft de relatieve grootte aan van de hoeveelheid heropnames.
+Grootste aantal heropnames bepaalt de kleur.
+Built with <a href="http://d3js.org/">D3</a>.</aside>
+<p>
+  <form>
+Filter op heropname indicatie:
+<select id="mySelect">
+  <option>Totaal overzicht heropnames</option>
+  <option>A1:waarschijnlijke complicatie</option>
+  <option>A2:mogelijke complicatie</option>
+  <option>B2:instabiele achteruitgang</option>
+  <option>B3:niet-medische risicofactoren</option>
+<option>C:eigen voorkeur</option>
+<option>D:registratie artefact</option>
+<option>E:toeval</option>
+<option>F:breed gerelateerd</option>
+<option>G:uitzonderingen op E</option>
+</select>
+<br><br>
+<input type="button" onclick="getOption()" value="Filter">
+</form>
+
+<svg id="demo"></svg>
+
+
+<script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="//d3js.org/queue.v1.min.js"></script>
+
+<script>
+
+        function getOption() {
+          // Clean previous diagram NEEDS ADJUSTMENT; MAKES SCREEN FLICKER
+          
+svg.selectAll("*").remove();
+            var obj = document.getElementById("mySelect");
+
+            document.getElementById("demo").innerHTML = 
+            obj.options[obj.selectedIndex].text;
+
+            console.log(obj.selectedIndex);
+
+            if (obj.selectedIndex == 1) {
+              queue()
+              .defer(d3.csv, "afdelingen.csv")
+              .defer(d3.json, "A1.json") // NEED A NEW JSON FILE FOR EACH FILTER
+              .await(ready);
+            }
+            else if (obj.selectedIndex == 2) {
+              queue()
+              .defer(d3.csv, "afdelingen.csv")
+              .defer(d3.json, "A2.json") 
+              .await(ready);
+            }
+            else if (obj.selectedIndex == 3) {
+              queue()
+              .defer(d3.csv, "afdelingen.csv")
+              .defer(d3.json, "B2.json") 
+              .await(ready);
+              }
+              else if (obj.selectedIndex == 4) {
+              queue()
+              .defer(d3.csv, "afdelingen.csv")
+              .defer(d3.json, "B3.json") 
+              .await(ready);
+            }
+            else if (obj.selectedIndex == 5) {
+              queue()
+              .defer(d3.csv, "afdelingen.csv")
+              .defer(d3.json, "C.json") 
+              .await(ready);
+            }
+            else if (obj.selectedIndex == 6) {
+              queue()
+              .defer(d3.csv, "afdelingen.csv")
+              .defer(d3.json, "D.json") 
+              .await(ready);
+            }
+            else if (obj.selectedIndex == 7) {
+              queue()
+              .defer(d3.csv, "afdelingen.csv")
+              .defer(d3.json, "E.json") 
+              .await(ready);
+            }
+            else if (obj.selectedIndex == 8) {
+              queue()
+              .defer(d3.csv, "afdelingen.csv")
+              .defer(d3.json, "F.json") 
+              .await(ready);
+            }
+            else if (obj.selectedIndex == 9) {
+              queue()
+              .defer(d3.csv, "afdelingen.csv")
+              .defer(d3.json, "G.json") 
+              .await(ready);
+            }
+            else {
+               queue()
+              .defer(d3.csv, "afdelingen.csv")
+              .defer(d3.json, "Alexia_matrix.json") 
+              .await(ready);
+            }
+        }
+
+    var width = 720,
+        height = 720,
+        outerRadius = Math.min(width, height) / 2 - 10,
+        innerRadius = outerRadius - 24;
+
+    var formatPercent = d3.format("");
+
+    var arc = d3.svg.arc()
+        .innerRadius(innerRadius)
+        .outerRadius(outerRadius);
+
+    var layout = d3.layout.chord()
+        .padding(.04)
+        .sortSubgroups(d3.descending)
+        .sortChords(d3.ascending);
+
+    var path = d3.svg.chord()
+        .radius(innerRadius);
+
+    var svg = d3.select("body").append("svg")
+        .attr("width", width)
+        .attr("height", height)
+        .append("g")
+        .attr("id", "circle")
+        .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+
+    svg.append("circle")
+        .attr("r", outerRadius);
+ 
+
+    function ready(error, afdelingen, matrix) {
+        if (error) throw error;
+
+        // Compute the chord layout. // matrix is loaded here
+        layout.matrix(matrix);
+console.log(matrix);
+        // Add a group per neighborhood.
+        var group = svg.selectAll(".group")
+            .data(layout.groups)
+            .enter().append("g")
+            .attr("class", "group")
+            .on("mouseover", mouseover);
+
+        // Add a mouseover title.
+        group.append("title").text(function(d, i) {
+            return afdelingen[i].name + ": " + formatPercent(d.value) + " heropnames totaal";
+        });
+
+        // Add the group arc.
+        var groupPath = group.append("path")
+            .attr("id", function(d, i) {
+                return "group" + i;
+            })
+            .attr("d", arc)
+            .style("fill", function(d, i) {
+                return afdelingen[i].color;
+            });
+
+        // Add a text label.
+        var groupText = group.append("text")
+            .attr("x", 6)
+            .attr("dy", 15);
+
+        groupText.append("textPath")
+            .attr("xlink:href", function(d, i) {
+                return "#group" + i;
+            })
+            .text(function(d, i) {
+                return afdelingen[i].name;
+            });
+
+        // Remove the labels that don't fit. :(
+        groupText.filter(function(d, i) {
+                return groupPath[0][i].getTotalLength() / 2 - 16 < this.getComputedTextLength();
+            })
+            .remove();
+
+        // Add the chords.
+        var chord = svg.selectAll(".chord")
+            .data(layout.chords)
+            .enter().append("path")
+            .attr("class", "chord")
+            .style("fill", function(d) {
+                return afdelingen[d.source.index].color;
+            })
+            .attr("d", path);
+
+        // Add an elaborate mouseover title for each chord.
+        chord.append("title").text(function(d) {
+            return afdelingen[d.source.index].name +
+                " → " + afdelingen[d.target.index].name +
+                ": " + formatPercent(d.source.value) +
+                "\n" + afdelingen[d.target.index].name +
+                " → " + afdelingen[d.source.index].name +
+                ": " + formatPercent(d.target.value);
+        });
+
+        function mouseover(d, i) {
+            chord.classed("fade", function(p) {
+                return p.source.index != i &&
+                    p.target.index != i;
+            });
+        }
+    }
+
+
+
+</script>
+
+<aside>January, 2017</aside>
+<a>Aangepast voor De Praktijk Index door P. van Twuyver</a>
+</footer>
+</body>
