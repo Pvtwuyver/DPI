@@ -1,0 +1,317 @@
+
+{
+ "name": "Interne geneeskunde",
+ "children": [
+  {
+   "name": "A1",
+   "children": [
+    {
+     "name": "Interne geneeskunde",
+     "children": [
+      {"name": "14 Patienten", "size": 14}
+
+     ]
+    },
+    {
+     "name": "Chirurgie",
+     "children": [
+      {"name": "Patientnr 1202", "size": 1},
+      {"name": "Patientnr 12012", "size": 1},
+      {"name": "Patientnr 1202112", "size": 1},
+      {"name": "Patientnr 120122", "size": 1}
+     ]
+    },
+    {
+     "name": "Orthopedie",
+     "children": [
+      {"name": "Patientnr 1301", "size": 1}
+     ]
+    },
+    {
+     "name": "Urologie",
+     "children": [
+      {"name": "Patientnr 2201", "size": 1},
+      {"name": "Patientnr 4201", "size": 1}
+     ]
+    },
+    {
+     "name": "Maag-, darm en leverartsen",
+     "children": [
+      {"name": "Patient 22342", "size": 1},
+      {"name": "Patient 23442", "size": 1},
+      {"name": "Patient 12342", "size": 1}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "A2",
+   "children": [
+    {
+     "name": "Interne Geneeskunde",
+     "children": [
+      {"name": "349 patienten", "size": 349}
+     ]
+    },
+    {
+     "name": "Cardiologie",
+     "children": [
+      {"name": "10 patienten", "size": 10}
+     ]
+    },
+    {
+     "name": "Longgeneeskunde",
+     "children": [
+      {"name": "8 patienten", "size": 8}
+     ]
+    },    
+    {
+     "name": "Intensivisme, inwendige geneeskunde",
+     "children": [
+      {"name": "1 patienten", "size": 1}
+     ]
+    },   
+    {
+     "name": "Maag, darm leverartsen",
+     "children": [
+      {"name": "10 patienten", "size": 10}
+     ]
+    },   
+    {
+     "name": "Neurologie",
+     "children": [
+      {"name": "6 patienten", "size": 16}
+     ]
+    },   
+    {
+     "name": "Orthopedie",
+     "children": [
+      {"name": "1 patienten", "size": 1}
+     ]
+    },   
+    {
+     "name": "Psychiatrie",
+     "children": [
+      {"name": "1 patienten", "size": 1}
+     ]
+    },
+    {
+     "name": "Chirurgie",
+     "children": [
+      {"name": "11 patienten", "size": 11}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "B2",
+   "children": [
+    {
+     "name": "Interne geneeskunde",
+     "children": [
+      {"name": "Patientnr 3201", "size": 1},
+      {"name": "Patientnr 3202", "size": 1},
+      {"name": "Patientnr 3203", "size": 1}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "B3",
+   "children": [
+       {
+     "name": "Interne geneeskunde",
+     "children": [
+      {"name": "Patientnummer 5432", "size": 1},
+      {"name": "Patientnummer 5432", "size": 1},
+      {"name": "Patientnummer 5432", "size": 1},
+      {"name": "Patientnummer 5432", "size": 1},
+    {"name": "Patientnummer 5432", "size": 1},
+    {"name": "Patientnummer 5432", "size": 1},
+    {"name": "Patientnummer 5432", "size": 1},
+    {"name": "Patientnummer 5432", "size": 1},
+    {"name": "Patientnummer 5432", "size": 1},
+    {"name": "Patientnummer 5432", "size": 1},
+    {"name": "Patientnummer 5432", "size": 1}
+     ]
+    },
+    {
+     "name": "Longgeneeskunde",
+     "children": [
+      {"name": "Patientnummer 9876", "size": 1}
+     ]
+    },
+    {
+     "name": "Orthopedie",
+     "children": [
+      {"name": "Patientnummer 6473", "size": 1}
+     ]
+    },
+    {
+     "name": "Urologie",
+     "children": [
+      {"name": "Patientnummer 4321", "size": 1}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "E",
+   "children": [
+    {
+     "name": "Interne geneeskunde",
+     "children": [
+      {"name": "394 patients", "size": 394}
+     ]
+    },
+    {
+     "name": "Cardiologie",
+     "children": [
+      {"name": "35 patients", "size": 35}
+     ]
+    },
+    {
+     "name": "Chirurgie",
+     "children": [
+      {"name": "24 patients", "size": 24}
+     ]
+    },
+    {
+     "name": "Intensivisme, Interne geneeskunde",
+     "children": [
+      {"name": "Patientnummer 2999", "size": 1}
+     ]
+    },
+    {
+     "name": "Keel, neus en oorartsen",
+     "children": [
+      {"name": "Patientnummer 5544", "size": 1}
+     ]
+    },
+    {
+     "name": "Kindergeneeskunde",
+     "children": [
+      {"name": "Patientnummer 4990", "size": 1}
+     ]
+    },
+    {
+     "name": "Klinische geriatrie",
+     "children": [
+      {"name": "Patientnummer 11223", "size": 1}
+     ]
+    },
+    {
+     "name": "Longgeneeskunde",
+     "children": [
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1}
+     ]
+    },
+    {
+     "name": "Maag, darm leverartsen",
+     "children": [
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1}
+     ]
+    },
+    {
+     "name": "Neurologie",
+     "children": [
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1}
+     ]
+    },
+    {
+     "name": "Orthopedie",
+     "children": [
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1},
+      {"name": "Patientnummer 09872", "size": 1}
+     ]
+    },
+    {
+     "name": "Overige specialisme",
+     "children": [
+      {"name": "Patientnummer", "size": 1}
+     ]
+    },
+    {
+     "name": "Urologie",
+     "children": [
+      {"name": "Patientnummer 5432", "size": 1},
+      {"name": "Patientnummer 12345", "size": 1},
+      {"name": "Patientnummer 7684", "size": 1},
+      {"name": "Patientnummer 08790", "size": 1},
+      {"name": "Patientnummer 54098", "size": 1}
+     ]
+    },
+    {
+     "name": "Reumatologie",
+     "children": [
+      {"name": "Patientnummer 63632", "size": 1},
+      {"name": "Patientnummer 53632", "size": 1}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "F",
+   "children": [
+    {
+     "name": "Urologie",
+     "children": [
+      {"name": "Patientnummer 53632", "size": 1},
+      {"name": "Patientnummer 53632", "size": 1},
+      {"name": "Patientnummer 53632", "size": 1}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "exclusie",
+   "children": [
+    {"name": "Patientnummer 6665", "size": 1}
+   ]
+  }]
+}
