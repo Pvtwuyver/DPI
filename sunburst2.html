@@ -15,6 +15,12 @@ form {
   top: 10px;
 }
 
+#legend {
+  position: absolute;
+  left: -200px;
+  top: 100px;
+}
+
 path {
   stroke: #fff;
   fill-rule: evenodd;
@@ -22,6 +28,22 @@ path {
 
 </style>
 <body>
+<h2> Heropnames na Indexopname bij Interne Geneeskunde </h2> 
+<hr>  
+<div id="legend">
+  <h3> Heropname type: </h3>
+  <p> A1: waarschijnlijke complicatie </br>
+  <p> A2: mogelijke complicatie </br>
+    <p> B1: ziek maar stabiel </br>
+    <p> B2: instabiele achteruitgang </br>
+      <p> B3: niet-medische risicofactoren </br>
+        <p> C: eigen voorkeur </br>
+          <p> D: registratie artefact </br>
+            <p> E: toeval </br>
+              <p> F: breed gerelateerd </br>
+                <p> G: uitzonderingen op E </br>
+                  <p> Exclusie </br>
+</div>
 <form>
   <label><input type="radio" name="mode" value="size"> Size</label>
   <label><input type="radio" name="mode" value="count" checked> Count</label>
