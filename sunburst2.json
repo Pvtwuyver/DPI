@@ -56,13 +56,29 @@
     {
      "name": "Cardiologie",
      "children": [
-      {"name": "10 patienten", "size": 10}
+      {"name": "patient 1", "size": 1},
+      {"name": "patient 2", "size": 1},
+      {"name": "patient 3", "size": 1},
+      {"name": "patient 4", "size": 1},
+      {"name": "patient 5", "size": 1},
+      {"name": "patient 6", "size": 1},
+      {"name": "patient 7", "size": 1},
+      {"name": "patient 8", "size": 1},
+      {"name": "patient 9", "size": 1},
+      {"name": "patient 10", "size": 1}
      ]
     },
     {
      "name": "Longgeneeskunde",
      "children": [
-      {"name": "8 patienten", "size": 8}
+      {"name": "patient 1", "size": 1},
+      {"name": "patient 2", "size": 1},
+      {"name": "patient 3", "size": 1},
+      {"name": "patient 4", "size": 1},
+      {"name": "patient 5", "size": 1},
+      {"name": "patient 6", "size": 1},
+      {"name": "patient 7", "size": 1},
+      {"name": "patient 8", "size": 1}
      ]
     },    
     {
@@ -74,13 +90,27 @@
     {
      "name": "Maag, darm leverartsen",
      "children": [
-      {"name": "10 patienten", "size": 10}
+      {"name": "patient 1", "size": 1},
+      {"name": "patient 2", "size": 1},
+      {"name": "patient 3", "size": 1},
+      {"name": "patient 4", "size": 1},
+      {"name": "patient 5", "size": 1},
+      {"name": "patient 6", "size": 1},
+      {"name": "patient 7", "size": 1},
+      {"name": "patient 8", "size": 1},
+      {"name": "patient 9", "size": 1},
+      {"name": "patient 10", "size": 1}
      ]
     },   
     {
      "name": "Neurologie",
      "children": [
-      {"name": "6 patienten", "size": 16}
+      {"name": "patient 1", "size": 1},
+      {"name": "patient 2", "size": 1},
+      {"name": "patient 3", "size": 1},
+      {"name": "patient 4", "size": 1},
+      {"name": "patient 5", "size": 1},
+      {"name": "patient 6", "size": 1}
      ]
     },   
     {
@@ -98,7 +128,17 @@
     {
      "name": "Chirurgie",
      "children": [
-      {"name": "11 patienten", "size": 11}
+      {"name": "patient 1", "size": 1},
+      {"name": "patient 2", "size": 1},
+      {"name": "patient 3", "size": 1},
+      {"name": "patient 4", "size": 1},
+      {"name": "patient 5", "size": 1},
+      {"name": "patient 6", "size": 1},
+      {"name": "patient 7", "size": 1},
+      {"name": "patient 8", "size": 1},
+      {"name": "patient 9", "size": 1},
+      {"name": "patient 10", "size": 1},
+      {"name": "patient 11", "size": 1}
      ]
     }
    ]
@@ -122,35 +162,35 @@
        {
      "name": "Interne geneeskunde",
      "children": [
-      {"name": "Patientnummer 5432", "size": 1},
-      {"name": "Patientnummer 5432", "size": 1},
-      {"name": "Patientnummer 5432", "size": 1},
-      {"name": "Patientnummer 5432", "size": 1},
-    {"name": "Patientnummer 5432", "size": 1},
-    {"name": "Patientnummer 5432", "size": 1},
-    {"name": "Patientnummer 5432", "size": 1},
-    {"name": "Patientnummer 5432", "size": 1},
-    {"name": "Patientnummer 5432", "size": 1},
-    {"name": "Patientnummer 5432", "size": 1},
-    {"name": "Patientnummer 5432", "size": 1}
+      {"name": "Patient 5432", "size": 1},
+      {"name": "Patient 5432", "size": 1},
+      {"name": "Patient 5432", "size": 1},
+      {"name": "Patient 5432", "size": 1},
+    {"name": "Patient 5432", "size": 1},
+    {"name": "Patient 5432", "size": 1},
+    {"name": "Patient 5432", "size": 1},
+    {"name": "Patient 5432", "size": 1},
+    {"name": "Patient 5432", "size": 1},
+    {"name": "Patient 5432", "size": 1},
+    {"name": "Patient 5432", "size": 1}
      ]
     },
     {
      "name": "Longgeneeskunde",
      "children": [
-      {"name": "Patientnummer 9876", "size": 1}
+      {"name": "Patient 9876", "size": 1}
      ]
     },
     {
      "name": "Orthopedie",
      "children": [
-      {"name": "Patientnummer 6473", "size": 1}
+      {"name": "Patient 6473", "size": 1}
      ]
     },
     {
      "name": "Urologie",
      "children": [
-      {"name": "Patientnummer 4321", "size": 1}
+      {"name": "Patient 4321", "size": 1}
      ]
     }
    ]
@@ -179,118 +219,118 @@
     {
      "name": "Intensivisme, Interne geneeskunde",
      "children": [
-      {"name": "Patientnummer 2999", "size": 1}
+      {"name": "Patient 2999", "size": 1}
      ]
     },
     {
      "name": "Keel, neus en oorartsen",
      "children": [
-      {"name": "Patientnummer 5544", "size": 1}
+      {"name": "Patient 5544", "size": 1}
      ]
     },
     {
      "name": "Kindergeneeskunde",
      "children": [
-      {"name": "Patientnummer 4990", "size": 1}
+      {"name": "Patient 4990", "size": 1}
      ]
     },
     {
      "name": "Klinische geriatrie",
      "children": [
-      {"name": "Patientnummer 11223", "size": 1}
+      {"name": "Patient 11223", "size": 1}
      ]
     },
     {
      "name": "Longgeneeskunde",
      "children": [
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1}
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1}
      ]
     },
     {
      "name": "Maag, darm leverartsen",
      "children": [
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1}
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1}
      ]
     },
     {
      "name": "Neurologie",
      "children": [
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1}
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1}
      ]
     },
     {
      "name": "Orthopedie",
      "children": [
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1},
-      {"name": "Patientnummer 09872", "size": 1}
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1},
+      {"name": "Patient 09872", "size": 1}
      ]
     },
     {
      "name": "Overige specialisme",
      "children": [
-      {"name": "Patientnummer", "size": 1}
+      {"name": "Patient", "size": 1}
      ]
     },
     {
      "name": "Urologie",
      "children": [
-      {"name": "Patientnummer 5432", "size": 1},
-      {"name": "Patientnummer 12345", "size": 1},
-      {"name": "Patientnummer 7684", "size": 1},
-      {"name": "Patientnummer 08790", "size": 1},
-      {"name": "Patientnummer 54098", "size": 1}
+      {"name": "Patient 5432", "size": 1},
+      {"name": "Patient 12345", "size": 1},
+      {"name": "Patient 7684", "size": 1},
+      {"name": "Patient 08790", "size": 1},
+      {"name": "Patient 54098", "size": 1}
      ]
     },
     {
      "name": "Reumatologie",
      "children": [
-      {"name": "Patientnummer 63632", "size": 1},
-      {"name": "Patientnummer 53632", "size": 1}
+      {"name": "Patient 63632", "size": 1},
+      {"name": "Patient 53632", "size": 1}
      ]
     }
    ]
@@ -301,9 +341,9 @@
     {
      "name": "Urologie",
      "children": [
-      {"name": "Patientnummer 53632", "size": 1},
-      {"name": "Patientnummer 53632", "size": 1},
-      {"name": "Patientnummer 53632", "size": 1}
+      {"name": "Patient 53632", "size": 1},
+      {"name": "Patient 53632", "size": 1},
+      {"name": "Patient 53632", "size": 1}
      ]
     }
    ]
@@ -311,7 +351,7 @@
   {
    "name": "exclusie",
    "children": [
-    {"name": "Patientnummer 6665", "size": 1}
+    {"name": "Patient 6665", "size": 1}
    ]
   }]
 }
