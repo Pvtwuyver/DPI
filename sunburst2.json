@@ -15,31 +15,31 @@
     {
      "name": "Chirurgie",
      "children": [
-      {"name": "Patientnr 1202", "size": 1},
-      {"name": "Patientnr 12012", "size": 1},
-      {"name": "Patientnr 1202112", "size": 1},
-      {"name": "Patientnr 120122", "size": 1}
+      {"name": "1202", "size": 1},
+      {"name": "12012", "size": 1},
+      {"name": "1202112", "size": 1},
+      {"name": "120122", "size": 1}
      ]
     },
     {
      "name": "Orthopedie",
      "children": [
-      {"name": "Patientnr 1301", "size": 1}
+      {"name": "1301", "size": 1}
      ]
     },
     {
      "name": "Urologie",
      "children": [
-      {"name": "Patientnr 2201", "size": 1},
-      {"name": "Patientnr 4201", "size": 1}
+      {"name": "2201", "size": 1},
+      {"name": "4201", "size": 1}
      ]
     },
     {
      "name": "Maag-, darm en leverartsen",
      "children": [
-      {"name": "Patient 22342", "size": 1},
-      {"name": "Patient 23442", "size": 1},
-      {"name": "Patient 12342", "size": 1}
+      {"name": "22342", "size": 1},
+      {"name": "23442", "size": 1},
+      {"name": "12342", "size": 1}
      ]
     }
    ]
@@ -56,29 +56,29 @@
     {
      "name": "Cardiologie",
      "children": [
-      {"name": "patient 1", "size": 1},
-      {"name": "patient 2", "size": 1},
-      {"name": "patient 3", "size": 1},
-      {"name": "patient 4", "size": 1},
-      {"name": "patient 5", "size": 1},
-      {"name": "patient 6", "size": 1},
-      {"name": "patient 7", "size": 1},
-      {"name": "patient 8", "size": 1},
-      {"name": "patient 9", "size": 1},
-      {"name": "patient 10", "size": 1}
+      {"name": "1", "size": 1},
+      {"name": "2", "size": 1},
+      {"name": "3", "size": 1},
+      {"name": "4", "size": 1},
+      {"name": "5", "size": 1},
+      {"name": "6", "size": 1},
+      {"name": "7", "size": 1},
+      {"name": "8", "size": 1},
+      {"name": "9", "size": 1},
+      {"name": "10", "size": 1}
      ]
     },
     {
      "name": "Longgeneeskunde",
      "children": [
-      {"name": "patient 1", "size": 1},
-      {"name": "patient 2", "size": 1},
-      {"name": "patient 3", "size": 1},
-      {"name": "patient 4", "size": 1},
-      {"name": "patient 5", "size": 1},
-      {"name": "patient 6", "size": 1},
-      {"name": "patient 7", "size": 1},
-      {"name": "patient 8", "size": 1}
+      {"name": "1", "size": 1},
+      {"name": "2", "size": 1},
+      {"name": "3", "size": 1},
+      {"name": "4", "size": 1},
+      {"name": "5", "size": 1},
+      {"name": "6", "size": 1},
+      {"name": "7", "size": 1},
+      {"name": "8", "size": 1}
      ]
     },    
     {
@@ -90,27 +90,27 @@
     {
      "name": "Maag, darm leverartsen",
      "children": [
-      {"name": "patient 1", "size": 1},
-      {"name": "patient 2", "size": 1},
-      {"name": "patient 3", "size": 1},
-      {"name": "patient 4", "size": 1},
-      {"name": "patient 5", "size": 1},
-      {"name": "patient 6", "size": 1},
-      {"name": "patient 7", "size": 1},
-      {"name": "patient 8", "size": 1},
-      {"name": "patient 9", "size": 1},
-      {"name": "patient 10", "size": 1}
+      {"name": "1", "size": 1},
+      {"name": "2", "size": 1},
+      {"name": "3", "size": 1},
+      {"name": "4", "size": 1},
+      {"name": "5", "size": 1},
+      {"name": "6", "size": 1},
+      {"name": "7", "size": 1},
+      {"name": "8", "size": 1},
+      {"name": "9", "size": 1},
+      {"name": "10", "size": 1}
      ]
     },   
     {
      "name": "Neurologie",
      "children": [
-      {"name": "patient 1", "size": 1},
-      {"name": "patient 2", "size": 1},
-      {"name": "patient 3", "size": 1},
-      {"name": "patient 4", "size": 1},
-      {"name": "patient 5", "size": 1},
-      {"name": "patient 6", "size": 1}
+      {"name": "1", "size": 1},
+      {"name": "2", "size": 1},
+      {"name": "3", "size": 1},
+      {"name": "4", "size": 1},
+      {"name": "5", "size": 1},
+      {"name": "6", "size": 1}
      ]
     },   
     {
@@ -128,17 +128,17 @@
     {
      "name": "Chirurgie",
      "children": [
-      {"name": "patient 1", "size": 1},
-      {"name": "patient 2", "size": 1},
-      {"name": "patient 3", "size": 1},
-      {"name": "patient 4", "size": 1},
-      {"name": "patient 5", "size": 1},
-      {"name": "patient 6", "size": 1},
-      {"name": "patient 7", "size": 1},
-      {"name": "patient 8", "size": 1},
-      {"name": "patient 9", "size": 1},
-      {"name": "patient 10", "size": 1},
-      {"name": "patient 11", "size": 1}
+      {"name": "1", "size": 1},
+      {"name": "2", "size": 1},
+      {"name": "3", "size": 1},
+      {"name": "4", "size": 1},
+      {"name": "5", "size": 1},
+      {"name": "6", "size": 1},
+      {"name": "7", "size": 1},
+      {"name": "8", "size": 1},
+      {"name": "9", "size": 1},
+      {"name": "10", "size": 1},
+      {"name": "11", "size": 1}
      ]
     }
    ]
@@ -149,9 +149,9 @@
     {
      "name": "Interne geneeskunde",
      "children": [
-      {"name": "Patientnr 3201", "size": 1},
-      {"name": "Patientnr 3202", "size": 1},
-      {"name": "Patientnr 3203", "size": 1}
+      {"name": "3201", "size": 1},
+      {"name": "3202", "size": 1},
+      {"name": "3203", "size": 1}
      ]
     }
    ]
@@ -162,35 +162,35 @@
        {
      "name": "Interne geneeskunde",
      "children": [
-      {"name": "Patient 5432", "size": 1},
-      {"name": "Patient 5432", "size": 1},
-      {"name": "Patient 5432", "size": 1},
-      {"name": "Patient 5432", "size": 1},
-    {"name": "Patient 5432", "size": 1},
-    {"name": "Patient 5432", "size": 1},
-    {"name": "Patient 5432", "size": 1},
-    {"name": "Patient 5432", "size": 1},
-    {"name": "Patient 5432", "size": 1},
-    {"name": "Patient 5432", "size": 1},
-    {"name": "Patient 5432", "size": 1}
+      {"name": "5432", "size": 1},
+      {"name": "5432", "size": 1},
+      {"name": "5432", "size": 1},
+      {"name": "5432", "size": 1},
+    {"name": "5432", "size": 1},
+    {"name": "5432", "size": 1},
+    {"name": "5432", "size": 1},
+    {"name": "5432", "size": 1},
+    {"name": "5432", "size": 1},
+    {"name": "5432", "size": 1},
+    {"name": "5432", "size": 1}
      ]
     },
     {
      "name": "Longgeneeskunde",
      "children": [
-      {"name": "Patient 9876", "size": 1}
+      {"name": "9876", "size": 1}
      ]
     },
     {
      "name": "Orthopedie",
      "children": [
-      {"name": "Patient 6473", "size": 1}
+      {"name": "6473", "size": 1}
      ]
     },
     {
      "name": "Urologie",
      "children": [
-      {"name": "Patient 4321", "size": 1}
+      {"name": "4321", "size": 1}
      ]
     }
    ]
@@ -219,95 +219,95 @@
     {
      "name": "Intensivisme, Interne geneeskunde",
      "children": [
-      {"name": "Patient 2999", "size": 1}
+      {"name": "2999", "size": 1}
      ]
     },
     {
      "name": "Keel, neus en oorartsen",
      "children": [
-      {"name": "Patient 5544", "size": 1}
+      {"name": "5544", "size": 1}
      ]
     },
     {
      "name": "Kindergeneeskunde",
      "children": [
-      {"name": "Patient 4990", "size": 1}
+      {"name": "4990", "size": 1}
      ]
     },
     {
      "name": "Klinische geriatrie",
      "children": [
-      {"name": "Patient 11223", "size": 1}
+      {"name": "11223", "size": 1}
      ]
     },
     {
      "name": "Longgeneeskunde",
      "children": [
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1}
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1}
      ]
     },
     {
      "name": "Maag, darm leverartsen",
      "children": [
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1}
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1}
      ]
     },
     {
      "name": "Neurologie",
      "children": [
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1}
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1}
      ]
     },
     {
      "name": "Orthopedie",
      "children": [
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1},
-      {"name": "Patient 09872", "size": 1}
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1},
+      {"name": "09872", "size": 1}
      ]
     },
     {
@@ -319,18 +319,18 @@
     {
      "name": "Urologie",
      "children": [
-      {"name": "Patient 5432", "size": 1},
-      {"name": "Patient 12345", "size": 1},
-      {"name": "Patient 7684", "size": 1},
-      {"name": "Patient 08790", "size": 1},
-      {"name": "Patient 54098", "size": 1}
+      {"name": "5432", "size": 1},
+      {"name": "12345", "size": 1},
+      {"name": "7684", "size": 1},
+      {"name": "08790", "size": 1},
+      {"name": "54098", "size": 1}
      ]
     },
     {
      "name": "Reumatologie",
      "children": [
-      {"name": "Patient 63632", "size": 1},
-      {"name": "Patient 53632", "size": 1}
+      {"name": "63632", "size": 1},
+      {"name": "53632", "size": 1}
      ]
     }
    ]
@@ -341,9 +341,9 @@
     {
      "name": "Urologie",
      "children": [
-      {"name": "Patient 53632", "size": 1},
-      {"name": "Patient 53632", "size": 1},
-      {"name": "Patient 53632", "size": 1}
+      {"name": "53632", "size": 1},
+      {"name": "53632", "size": 1},
+      {"name": "53632", "size": 1}
      ]
     }
    ]
@@ -351,7 +351,7 @@
   {
    "name": "exclusie",
    "children": [
-    {"name": "Patient 6665", "size": 1}
+    {"name": "6665", "size": 1}
    ]
   }]
 }
