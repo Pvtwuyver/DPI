@@ -6,10 +6,6 @@
     body {
         background-color: whitesmoke;
     }
-#infowindow {
-    display: inline-block;
-}
-
 
 #demo {
     display: inline-block;
@@ -19,7 +15,7 @@
     display: inline-block;
 }
 #demo {
-    font-size: 150px;
+   
     text-align: center;
 }
 
@@ -299,25 +295,30 @@
                             })
                             .text(function() {
                                 if(d && d.source) {
-                                    
-                                 return afdelingen[d.source.index].name +
-                            " → " + afdelingen[d.target.index].name +
-                            ": " + formatPercent(d.source.value) +
-                            "\n" + afdelingen[d.target.index].name +
-                            " → " + afdelingen[d.source.index].name +
-                            ": " + formatPercent(d.target.value);
+                                    if(afdelingen[d.source.index].name != afdelingen[d.target.index].name)
+                                        return  formatPercent(d.target.value+d.source.value)+ " heropnames";
+                                    else{
+                                        return  formatPercent(d.source.value)+ " heropnames";
+                                    }       
+                            //      return afdelingen[d.source.index].name +
+                            // " → " + afdelingen[d.target.index].name +
+                            // ": " + formatPercent(d.source.value) +
+                            // "\n" + afdelingen[d.target.index].name +
+                            // " → " + afdelingen[d.source.index].name +
+                            // ": " + formatPercent(d.target.value);
                         } else {
-                            return afdelingen[i].name + ": " + formatPercent(d.value) + " heropnames totaal\n";
+                            return formatPercent(d.value) + " heropnames";
+                           // return afdelingen[i].name + ": " + formatPercent(d.value) + " heropnames totaal\n";
                         }
 
                             })
                             .attr("font-family", "sans-serif")
-                            .attr("font-size", "30px")
+                            .attr("font-size", "100px")
                             .attr("fill", "red");
                     }
 
                     function handleMouseOut(d, i) {
-                        // Use D3 to select element, change color back to normal
+                        
                         d3.select(this).attr();
                         // Select text by id and then remove
                         d3.select("#info").remove(); // Remove text location
