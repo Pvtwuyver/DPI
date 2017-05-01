@@ -6,6 +6,22 @@
     body {
         background-color: whitesmoke;
     }
+#infowindow {
+    display: inline-block;
+}
+
+
+#demo {
+    display: inline-block;
+}
+
+#selectie {
+    display: inline-block;
+}
+#demo {
+    font-size: 150px;
+    text-align: center;
+}
 
     #circle circle {
         fill: none;
@@ -33,11 +49,7 @@
 
 <body>
 
-
-
-    <h1>Chorddiagram voor heropname per afdeling</h1>
-
-    <p>Mouseover voor focus op specifieke heropnames per afdeling. De dikte van de link geeft de relatieve grootte aan van de hoeveelheid heropnames. Grootste aantal heropnames bepaalt de kleur. Built with <a href="http://d3js.org/">D3</a>.</aside>
+    <p>Mouseover voor focus op specifieke heropnames per afdeling. De dikte van de link geeft de relatieve grootte aan van de hoeveelheid heropnames. Grootste aantal heropnames bepaalt de kleur. 
         <p>
             <form>
                 Filter op heropname indicatie:
@@ -56,13 +68,16 @@
                 <br><br>
                 <input type="button" onclick="getOption()" value="Filter">
             </form>
-<h1><div id="demo"></div></h1>
-            <div id="infowindow" width="900" height="900"></div>
+
+<div>
+<h1><div id="selectie"></div><div id="demo"></div></h1>
+</div>
+<div id="infowindow" ></div>
             
 
 
-            <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
-            <script src="//d3js.org/queue.v1.min.js"></script>
+            <script src="d3.v3.min.js" charset="utf-8"></script>
+            <script src="queue.v1.min.js"></script>
 
             <script>
                 function getOption() {
@@ -77,72 +92,93 @@
                             .defer(d3.csv, "afdelingen.csv")
                             .defer(d3.json, "A1.json") // NEED A NEW JSON FILE FOR EACH FILTER
                             .await(ready);
+                        
+                        document.getElementById("selectie").innerHTML =
+                        obj.options[obj.selectedIndex].text + ": totaal aantal heropname's ;" 
                         document.getElementById("demo").innerHTML =
-                        obj.options[obj.selectedIndex].text + ": " + TotalsIndicatie[1] + " heropnames totaal";
+                         TotalsIndicatie[1];
                     } else if (obj.selectedIndex == 2) {
                         queue()
                             .defer(d3.csv, "afdelingen.csv")
                             .defer(d3.json, "A2.json")
                             .await(ready);
+                        document.getElementById("selectie").innerHTML =
+                        obj.options[obj.selectedIndex].text + ": totaal aantal heropname's ;" 
                         document.getElementById("demo").innerHTML =
-                        obj.options[obj.selectedIndex].text + ": " + TotalsIndicatie[2] + " heropnames totaal";
+                         TotalsIndicatie[2];
                             
                     } else if (obj.selectedIndex == 3) {
                         queue()
                             .defer(d3.csv, "afdelingen.csv")
                             .defer(d3.json, "B2.json")
                             .await(ready);
+                        document.getElementById("selectie").innerHTML =
+                        obj.options[obj.selectedIndex].text + ": totaal aantal heropname's ;" 
                         document.getElementById("demo").innerHTML =
-                        obj.options[obj.selectedIndex].text + ": " + TotalsIndicatie[3] + " heropnames totaal";
+                         TotalsIndicatie[3];
                     } else if (obj.selectedIndex == 4) {
                         queue()
                             .defer(d3.csv, "afdelingen.csv")
                             .defer(d3.json, "B3.json")
                             .await(ready);
+                        document.getElementById("selectie").innerHTML =
+                        obj.options[obj.selectedIndex].text + ": totaal aantal heropname's ;" 
                         document.getElementById("demo").innerHTML =
-                        obj.options[obj.selectedIndex].text + ": " + TotalsIndicatie[4] + " heropnames totaal";
+                         TotalsIndicatie[4];
                     } else if (obj.selectedIndex == 5) {
                         queue()
                             .defer(d3.csv, "afdelingen.csv")
                             .defer(d3.json, "C.json")
                             .await(ready);
+                        document.getElementById("selectie").innerHTML =
+                        obj.options[obj.selectedIndex].text + ": totaal aantal heropname's ;" 
                         document.getElementById("demo").innerHTML =
-                        obj.options[obj.selectedIndex].text + ": " + TotalsIndicatie[5] + " heropnames totaal";
+                         TotalsIndicatie[5];
                     } else if (obj.selectedIndex == 6) {
                         queue()
                             .defer(d3.csv, "afdelingen.csv")
                             .defer(d3.json, "D.json")
                             .await(ready);
+                        document.getElementById("selectie").innerHTML =
+                        obj.options[obj.selectedIndex].text + ": totaal aantal heropname's ;" 
                         document.getElementById("demo").innerHTML =
-                        obj.options[obj.selectedIndex].text + ": " + TotalsIndicatie[6] + " heropnames totaal";
+                         TotalsIndicatie[6];
                     } else if (obj.selectedIndex == 7) {
                         queue()
                             .defer(d3.csv, "afdelingen.csv")
                             .defer(d3.json, "E.json")
                             .await(ready);
+                        document.getElementById("selectie").innerHTML =
+                        obj.options[obj.selectedIndex].text + ": totaal aantal heropname's ;" 
                         document.getElementById("demo").innerHTML =
-                        obj.options[obj.selectedIndex].text + ": " + TotalsIndicatie[7] + " heropnames totaal";
+                         TotalsIndicatie[7];
                     } else if (obj.selectedIndex == 8) {
                         queue()
                             .defer(d3.csv, "afdelingen.csv")
                             .defer(d3.json, "F.json")
                             .await(ready);
+                        document.getElementById("selectie").innerHTML =
+                        obj.options[obj.selectedIndex].text + ": totaal aantal heropname's ;" 
                         document.getElementById("demo").innerHTML =
-                        obj.options[obj.selectedIndex].text + ": " + TotalsIndicatie[8] + " heropnames totaal";
+                         TotalsIndicatie[8];
                     } else if (obj.selectedIndex == 9) {
                         queue()
                             .defer(d3.csv, "afdelingen.csv")
                             .defer(d3.json, "G.json")
                             .await(ready);
+                        document.getElementById("selectie").innerHTML =
+                        obj.options[obj.selectedIndex].text + ": totaal aantal heropname's ;" 
                         document.getElementById("demo").innerHTML =
-                        obj.options[obj.selectedIndex].text + ": " + TotalsIndicatie[9] + " heropnames totaal";
+                         TotalsIndicatie[9];
                     } else {
                         queue()
                             .defer(d3.csv, "afdelingen.csv")
                             .defer(d3.json, "Alexia_matrix.json")
                             .await(ready);
+                        document.getElementById("selectie").innerHTML =
+                        obj.options[obj.selectedIndex].text + ": totaal aantal heropname's ;" 
                         document.getElementById("demo").innerHTML =
-                        obj.options[obj.selectedIndex].text + ": " + TotalsIndicatie[0] + " heropnames totaal";
+                         TotalsIndicatie[0];
                     }
                 }
 
@@ -166,7 +202,7 @@
                     .radius(innerRadius);
 
                 var svg = d3.select("#infowindow").append("svg")
-                    .attr("width", width+300)
+                    .attr("width", width+800)
                     .attr("height", height+100)
                     .append("g")
                     .attr("id", "circle")
@@ -236,12 +272,6 @@
 
                     // Add an elaborate mouseover title for each chord.
                     chord.append("title").text(function(d) {
-console.log(afdelingen[d.source.index].name +
-" → " + afdelingen[d.target.index].name +
-": " + formatPercent(d.source.value) +
-"\n" + afdelingen[d.target.index].name +
-" → " + afdelingen[d.source.index].name +
-": " + formatPercent(d.target.value))
                         return afdelingen[d.source.index].name +
                             " → " + afdelingen[d.target.index].name +
                             ": " + formatPercent(d.source.value) +
@@ -249,23 +279,41 @@ console.log(afdelingen[d.source.index].name +
                             " → " + afdelingen[d.source.index].name +
                             ": " + formatPercent(d.target.value);
                     });
+                    chord.on("mouseover", mouseover);
+                    chord.on("mouseout", handleMouseOut);
 
                     function mouseover(d, i) {
+                        if(d.value) {
                         chord.classed("fade", function(p) {
                             return p.source.index != i &&
                                 p.target.index != i;
                         })
+                    }
                         // Use D3 to select element, change color and size
                         d3.select(this).attr({});
                         // Specify where to put label of text
                         svg.append("text").attr({
                                 id: "info",
-                                x: +600,
+                                x: 400,
                                 y: -350
                             })
                             .text(function() {
-                                return "test"
-                            });
+                                if(d && d.source) {
+                                    
+                                 return afdelingen[d.source.index].name +
+                            " → " + afdelingen[d.target.index].name +
+                            ": " + formatPercent(d.source.value) +
+                            "\n" + afdelingen[d.target.index].name +
+                            " → " + afdelingen[d.source.index].name +
+                            ": " + formatPercent(d.target.value);
+                        } else {
+                            return afdelingen[i].name + ": " + formatPercent(d.value) + " heropnames totaal\n";
+                        }
+
+                            })
+                            .attr("font-family", "sans-serif")
+                            .attr("font-size", "30px")
+                            .attr("fill", "red");
                     }
 
                     function handleMouseOut(d, i) {
