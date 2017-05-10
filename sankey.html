@@ -52,7 +52,8 @@ var margin = {top: 6, right: 1, bottom: 6, left: 1},
 
 var formatNumber = d3.format(",.0f"),
     format = function(d) { return formatNumber(d) + " Patienten"; },
-    color = d3.scale.category10(); // Kleurenschema
+    color = d3.scale.category20(); // Kleurenschema
+
 
 var svg = d3.select("#chart").append("svg")
     .attr("width", width + margin.left + margin.right)
