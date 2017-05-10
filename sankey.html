@@ -52,8 +52,9 @@ var margin = {top: 6, right: 1, bottom: 6, left: 1},
 
 var formatNumber = d3.format(",.0f"),
     format = function(d) { return formatNumber(d) + " Patienten"; },
-    color = d3.scale.category20(); // Kleurenschema
-
+    //color = d3.scale.category20(); // Kleurenschema
+    color = d3.scale.ordinal()
+  .range(["#739926", "#1a4d66", "#7c698c", "#b26559", "#d4ff80", "#a3c7d9", "#e680ff", "#f2beb6", "#718060", "#1d3f73", "#6d1d73", "#ff6600", "#16591f", "#102340", "#ffbff2", "#b2622d", "#00ff44", "#000099", "#ff00aa", "#4c2a13", "#66cc81", "#00008c"]);
 
 var svg = d3.select("#chart").append("svg")
     .attr("width", width + margin.left + margin.right)
