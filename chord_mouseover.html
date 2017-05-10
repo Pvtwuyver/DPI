@@ -46,7 +46,7 @@
 <body>
 
     <p>Mouseover voor focus op specifieke heropnames per afdeling. De dikte van de link geeft de relatieve grootte aan van de hoeveelheid heropnames. Grootste aantal heropnames bepaalt de kleur. 
-        <p>
+        <p><h2>
             <form>
                 Filter op heropname indicatie:
                 <select id="mySelect" onchange="getOption()">
@@ -64,7 +64,7 @@
                 <br><br>
             
             </form>
-
+</h2>
 <div>
 <h1><div id="selectie"></div><div id="demo"></div></h1>
 </div>
@@ -76,6 +76,12 @@
             <script src="queue.v1.min.js"></script>
 
             <script>
+            // set Totaal Overzicht as standard visualisation
+                            queue()
+                            .defer(d3.csv, "afdelingen.csv")
+                            .defer(d3.json, "Alexia_matrix.json")
+                            .await(ready);
+                            
                 function getOption() {
                     // Clean previous diagram NEEDS ADJUSTMENT; MAKES SCREEN FLICKER
 
