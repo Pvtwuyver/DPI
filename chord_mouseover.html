@@ -49,7 +49,7 @@
         <p>
             <form>
                 Filter op heropname indicatie:
-                <select id="mySelect">
+                <select id="mySelect" onchange="getOption()">
   <option>Totaal overzicht</option>
   <option>A1: waarschijnlijke complicatie</option>
   <option>A2: mogelijke complicatie</option>
@@ -62,7 +62,7 @@
 <option>G: uitzonderingen op E</option>
 </select>
                 <br><br>
-                <input type="button" onclick="getOption()" value="Filter">
+            
             </form>
 
 <div>
